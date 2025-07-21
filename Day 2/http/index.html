@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teakadai</title>
+</head>
+<body>
+  <h1>Welcome to Sudharsan Teakadai!</h1>
+  <p>Click to get special chai message from server:</p>
+  <button onclick="getChai()">Get Chai</button>
+  <p id="output"></p>
+
+  <script>
+    function getChai() {
+      fetch('/chai')
+        .then(res => res.text())
+        .then(data => {
+          document.getElementById('output').innerText = data;
+        });
+    }
+  </script>
+</body>
+</html>
