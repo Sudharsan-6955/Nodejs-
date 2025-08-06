@@ -1,0 +1,21 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exp1.js",
+  "scripts": {
+    "start": "nodemon params.js",
+    "dev": "nodemon subRoutes.js",
+    "cookies": "nodemon cookies.js",
+    "reqObj1":"nodemon reqObj1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
