@@ -7,7 +7,10 @@
     "start": "nodemon params.js",
     "dev": "nodemon subRoutes.js",
     "cookies": "nodemon cookies.js",
-    "reqObj1":"nodemon reqObj1.js"
+    "reqObj1": "nodemon reqObj1.js",
+    "resObj": "nodemon resObj.js",
+    "resFrmt": "nodemon resFrmt.js",
+    "errorCode": "nodemon errorCode.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,7 @@
   "type": "commonjs",
   "dependencies": {
     "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
   }
