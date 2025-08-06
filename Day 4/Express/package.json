@@ -10,7 +10,8 @@
     "reqObj1": "nodemon reqObj1.js",
     "resObj": "nodemon resObj.js",
     "resFrmt": "nodemon resFrmt.js",
-    "errorCode": "nodemon errorCode.js"
+    "errorCode": "nodemon errorCode.js",
+    "middleWare":"nodemon middleWare.js"
   },
   "keywords": [],
   "author": "",
